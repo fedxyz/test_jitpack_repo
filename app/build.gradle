@@ -24,7 +24,6 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.fedxyz'
             artifactId = 'app'
-            version = '0.5'
 
             from components.java
         }
