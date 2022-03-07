@@ -6,6 +6,9 @@ plugins {
     id 'test_jitpack_repo.java-application-conventions'
 }
 
+group = 'com.github.fedxyz'
+version = '0.1'
+
 dependencies {
     implementation 'org.apache.commons:commons-text'
     implementation project(':utilities')

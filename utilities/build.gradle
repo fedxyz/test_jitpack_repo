@@ -6,6 +6,9 @@ plugins {
     id 'test_jitpack_repo.java-library-conventions'
 }
 
+group = 'com.github.fedxyz'
+version = '0.1'
+
 dependencies {
     api project(':list')
 }
