@@ -2,7 +2,7 @@
 subprojects {
   ext {
     project.group = 'com.github.fedxyz'
-    project.version = '0.7'
+    project.version = '0.8'
     
     group_ = 'test prop group_'
     version_ = 'test prop version_'
