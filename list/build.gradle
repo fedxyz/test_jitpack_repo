@@ -9,8 +9,7 @@ plugins {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.github.fedxyz'
-            artifactId = 'list'
+            artifactId = 'list_test'
 
             from components.java
         }

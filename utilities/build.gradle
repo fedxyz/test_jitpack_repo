@@ -13,8 +13,7 @@ dependencies {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.github.fedxyz'
-            artifactId = 'utilities'
+            artifactId = 'utilities_test'
 
             from components.java
         }
