@@ -6,9 +6,19 @@ plugins {
     id 'test_jitpack_repo.java-library-conventions'
 }
 
-group = 'com.github.fedxyz'
-version = '0.1'
-
 dependencies {
     api project(':list')
 }
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.fedxyz'
+            artifactId = 'utilities'
+            version = '0.2'
+
+            from components.java
+        }
+    }
+}
+
