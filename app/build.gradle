@@ -30,3 +30,8 @@ publishing {
     }
 }
 
+tasks.register('test_props') {
+    doLast {
+        println "group_: ${group_}, version_: ${version_}, group: ${project.group}, version: ${project.version}"
+    }
+}
