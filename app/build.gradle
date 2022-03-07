@@ -22,7 +22,7 @@ application {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.github.fedxyz'
+            groupId = 'com.example.com'
             artifactId = 'app'
 
             from components.java
